@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #382f5a;
+  min-width: 200px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
+
+@media (max-width: 576px) {
+  .container-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+  .list-container {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+  }
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+}
+* {
+  color: white;
+}

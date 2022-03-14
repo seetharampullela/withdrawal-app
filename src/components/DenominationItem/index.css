@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.button {
+  padding: 5px;
+  margin: 10px;
+  min-width: 80px;
+  color: white;
+  background-color: #585076;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .button {
+    max-width: 20px;
+  }
+}
